@@ -143,6 +143,7 @@ transition: .7s;
 }
 
 .infantil1 span {
+  color: #000;
   display: block;
   font-size: 35px;
   font-family: 'Amatic SC', cursive;
