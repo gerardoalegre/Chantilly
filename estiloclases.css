@@ -85,86 +85,286 @@ width: 100%;
   margin: auto;
 }
 
-/*  PAGINA PRINCIPAL*/ 
+/*  PAGINA PRINCIPAL
 
-.divInfantiles{
-width: 550px;
-height: 720px;
-margin: 50px;
-display: inline-block;
-background-color: #fff;
-padding:10px 10px 10px 10px;
-border:1px solid #BFBFBF;
-background-color:white;
-box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-
+GENERICO
+.divProductos {
+  width: 500px;
+  display: inline;
 }
 
-.divInfantiles span{
-  font-size: 35px;
-  display:  block;
-  margin-top: 1px;
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
-}
-
-.infantil1 img {
+.divProductos img {
+  display: inline-block;
   margin-left: 120px;
-  width:300px;
-  padding:10px 10px 50px 10px;
+  margin-top: 75px;
+  width:400px;
+  padding:10px 10px 70px 10px;
   border:1px solid #BFBFBF;
   background-color:white;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-  transform:rotate(-20deg);
-    -ms-transform:rotate(-10deg); /* IE9 */
-    -webkit-transform:rotate(-20deg); /* Safari y Chrome */
-    -moz-transform:rotate(-10deg); 
+  transform:rotate(-10deg);
+
 }
 
-.infantil2 img {
-  margin-left: 120px;
-  width:300px;
-  padding:10px 10px 50px 10px;
-  border:1px solid #BFBFBF;
-  background-color:white;
-  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-  transform:rotate(20deg);
-    -ms-transform:rotate(10deg); /* IE9 */
-    -webkit-transform:rotate(10deg); /* Safari y Chrome */
-    -moz-transform:rotate(10deg); 
+.divProductos span{
+     display: block;
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    transform:rotate(-10deg);
+    margin-left: 180px;
+    background-color: #fff;
+    width: 420px;
+    text-align: center;
+    border:1px solid #BFBFBF;
+    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
 }
 
-.infantil1:hover {
-  padding:20px 20px 100px 20px;
-transform:rotate(40deg);
+.divProductos:hover {
+padding:20px 20px 100px 20px;
+transform:rotate(10deg);
 transition: .7s;
 }
 
+*/ 
 
 
 
-.divProductos2 {
-border: solid red 3px;
-width: 500px;
-height: 720px;
-margin: 50px;
-display: inline-block;
-background-color: #fff;
+.divClases{
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
-.divProductos3 {
+/* INFANTILES*/
+
+.divInfantiles{
+  display:inline-block;
+
+}
+
+.infantil1 span {
+  display: block;
+  font-size: 35px;
+  font-family: 'Amatic SC', cursive;
+  position: relative;
+  margin-left: 120px;
   background-color: #fff;
-border: solid red 3px;
-width: 500px;
-height: 720px;
-margin: 50px;
-display: inline-block;
+  width: 420px;
+  text-align: center;
+  border:1px solid #BFBFBF;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.infantil1 img {
+  display: inline-block;
+  margin-left: 120px;
+  margin-top: 75px;
+  width:400px;
+  padding:10px 10px 70px 10px;
+  border:1px solid #BFBFBF;
+  background-color:white;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+
+}
+
+
+.infantil1:hover {
+  padding:20px 20px 100px 20px;
+  transition: .7s;
+}
+
+/*CLASICAS*/
+.divProductos2 {
+  width: 500px;
+  display: inline;
+}
+
+.divProductos2 img {
+  display: inline-block;
+  margin-left: 120px;
+  margin-top: 75px;
+  width:400px;
+  padding:10px 10px 70px 10px;
+  border:1px solid #BFBFBF;
+  background-color:white;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+ 
+
+}
+
+.divProductos2 span{
+  display: block;
+  font-size: 35px;
+  font-family: 'Amatic SC', cursive;
+  position: relative;
+  margin-left: 120px;
+  background-color: #fff;
+  width: 420px;
+  text-align: center;
+  border:1px solid #BFBFBF;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.divProductos2:hover {
+  padding:20px 20px 100px 20px;
+  transition: .7s;
+}
+
+/*CHOCOLATE*/
+.divProductos3 {
+  width: 500px;
+  display: inline;
+}
+
+.divProductos3 img {
+  display: inline-block;
+  margin-left: 120px;
+  margin-top: 75px;
+  width:400px;
+  padding:10px 10px 70px 10px;
+  border:1px solid #BFBFBF;
+  background-color:white;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+  
+}
+
+.divProductos3 span{
+  display: block;
+  font-size: 35px;
+  font-family: 'Amatic SC', cursive;
+  position: relative;
+  margin-left: 120px;
+  background-color: #fff;
+  width: 420px;
+  text-align: center;
+  border:1px solid #BFBFBF;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.divProductos3:hover {
+  padding:20px 20px 100px 20px;
+  transition: .7s;
 }
   
+/*FIESTAS*/
 
+.divProductos4 {
+  width: 500px;
+  display: inline;
+}
 
+.divProductos4 img {
+  display: inline-block;
+  margin-left: 120px;
+  margin-top: 75px;
+  width:400px;
+  padding:10px 10px 70px 10px;
+  border:1px solid #BFBFBF;
+  background-color:white;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+ 
+}
+
+.divProductos4 span{
+  display: block;
+  font-size: 35px;
+  font-family: 'Amatic SC', cursive;
+  position: relative;
+  margin-left: 120px;
+  background-color: #fff;
+  width: 420px;
+  text-align: center;
+  border:1px solid #BFBFBF;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.divProductos4:hover {
+  padding:20px 20px 100px 20px;
+  transition: .7s;
+}
+
+/* DESAYUNOS */
+.divProductos5 {
+  width: 500px;
+  display: inline;
+}
+
+.divProductos5 img {
+  display: inline-block;
+  margin-left: 120px;
+  margin-top: 75px;
+  width:500px;
+  padding:10px 10px 70px 10px;
+  border:1px solid #BFBFBF;
+  background-color:white;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+  
+}
+
+.divProductos5 span{
+  display: block;
+  font-size: 35px;
+  font-family: 'Amatic SC', cursive;
+  position: relative;
+  margin-left: 120px;
+  background-color: #fff;
+  width: 520px;
+  text-align: center;
+  border:1px solid #BFBFBF;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.divProductos5:hover {
+  padding:20px 20px 100px 20px;
+  transition: .7s;
+}
+
+/*MESA DULCE*/
+
+.divProductos6 {
+  width: 500px;
+  display: inline;
+  margin-left: 70px;
+}
+
+.divProductos6 img {
+  display: inline-block;
+  margin-left: 120px;
+  margin-top: 75px;
+  width:500px;
+  padding:10px 10px 70px 10px;
+  border:1px solid #BFBFBF;
+  background-color:white;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+ 
+
+}
+
+.divProductos6 span{
+  display: block;
+  font-size: 35px;
+  font-family: 'Amatic SC', cursive;
+  position: relative;
+  margin-left: 120px;
+  background-color: #fff;
+  width: 520px;
+  text-align: center;
+  border:1px solid #BFBFBF;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.divProductos6:hover {
+  padding:20px 20px 100px 20px;
+  transition: .7s;
+}
 
 /* FOOTER */
+
+.espaciado{
+width: 100%;
+height: 150px;
+}
+
 .footerRedes h4{
   font-family: 'Nunito', sans-serif;
   color: #fff;
