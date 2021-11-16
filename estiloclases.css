@@ -132,24 +132,22 @@ transition: .7s;
 .divClases{
   display: flex;
   flex-wrap: wrap;
-
+  margin-left: 10%;
 }
 
 /* INFANTILES*/
 
 .divInfantiles{
   display:inline-block;
-
 }
 
 .infantil1 span {
-  color: #fff;
+  color: #000;
   display: block;
-  font-size: 35px;
+  font-size: 50px;
   font-family: 'Amatic SC', cursive;
   position: relative;
-  margin-left: 120px;
-  background-color: #000;
+  background-color: #fff;
   width: 420px;
   text-align: center;
   border:1px solid #BFBFBF;
@@ -158,20 +156,21 @@ transition: .7s;
 
 .infantil1 img {
   display: inline-block;
-  margin-left: 120px;
   margin-top: 75px;
   width:400px;
   padding:10px 10px 70px 10px;
   border:1px solid #BFBFBF;
   background-color:white;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-
 }
 
 
-.infantil1:hover {
-  padding:20px 20px 100px 20px;
-  transition: .7s;
+.infantil1 img:hover {
+ transition: .7s;
+ display: inline-block;
+ border:1px solid #BFBFBF;
+ background-color:rgba(0, 0, 0, 0.8);
+ box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8) ;
 }
 
 /*CLASICAS*/
@@ -181,24 +180,22 @@ transition: .7s;
 }
 
 .divProductos2 img {
+  margin-left: 100px;
   display: inline-block;
-  margin-left: 120px;
   margin-top: 75px;
   width:400px;
   padding:10px 10px 70px 10px;
   border:1px solid #BFBFBF;
   background-color:white;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
- 
-
-}
+ }
 
 .divProductos2 span{
+  margin-left: 100px;
   display: block;
   font-size: 35px;
   font-family: 'Amatic SC', cursive;
   position: relative;
-  margin-left: 120px;
   background-color: #fff;
   width: 420px;
   text-align: center;
@@ -207,7 +204,7 @@ transition: .7s;
 }
 
 .divProductos2:hover {
-  padding:20px 20px 100px 20px;
+  padding:10px 10px 10px 10px;
   transition: .7s;
 }
 
@@ -218,8 +215,8 @@ transition: .7s;
 }
 
 .divProductos3 img {
+  margin-left: 100px;
   display: inline-block;
-  margin-left: 120px;
   margin-top: 75px;
   width:400px;
   padding:10px 10px 70px 10px;
@@ -230,11 +227,11 @@ transition: .7s;
 }
 
 .divProductos3 span{
+  margin-left: 100px;
   display: block;
   font-size: 35px;
   font-family: 'Amatic SC', cursive;
   position: relative;
-  margin-left: 120px;
   background-color: #fff;
   width: 420px;
   text-align: center;
@@ -243,7 +240,7 @@ transition: .7s;
 }
 
 .divProductos3:hover {
-  padding:20px 20px 100px 20px;
+  padding:10px 10px 10px 10px;
   transition: .7s;
 }
   
@@ -255,8 +252,8 @@ transition: .7s;
 }
 
 .divProductos4 img {
+  margin-left: 100px;
   display: inline-block;
-  margin-left: 120px;
   margin-top: 75px;
   width:400px;
   padding:10px 10px 70px 10px;
@@ -267,11 +264,11 @@ transition: .7s;
 }
 
 .divProductos4 span{
+  margin-left: 100px;
   display: block;
   font-size: 35px;
   font-family: 'Amatic SC', cursive;
   position: relative;
-  margin-left: 120px;
   background-color: #fff;
   width: 420px;
   text-align: center;
@@ -280,7 +277,7 @@ transition: .7s;
 }
 
 .divProductos4:hover {
-  padding:20px 20px 100px 20px;
+  padding:10px 10px 10px 10px;
   transition: .7s;
 }
 
@@ -292,7 +289,7 @@ transition: .7s;
 
 .divProductos5 img {
   display: inline-block;
-  margin-left: 120px;
+  margin-left: 100px;
   margin-top: 75px;
   width:500px;
   padding:10px 10px 70px 10px;
@@ -303,11 +300,11 @@ transition: .7s;
 }
 
 .divProductos5 span{
+  margin-left: 100px;
   display: block;
   font-size: 35px;
   font-family: 'Amatic SC', cursive;
   position: relative;
-  margin-left: 120px;
   background-color: #fff;
   width: 520px;
   text-align: center;
@@ -316,7 +313,7 @@ transition: .7s;
 }
 
 .divProductos5:hover {
-  padding:20px 20px 100px 20px;
+  padding:10px 10px 10px 10px;
   transition: .7s;
 }
 
@@ -325,28 +322,25 @@ transition: .7s;
 .divProductos6 {
   width: 500px;
   display: inline;
-  margin-left: 70px;
 }
 
 .divProductos6 img {
+  margin-left: 100px;
   display: inline-block;
-  margin-left: 120px;
   margin-top: 75px;
   width:500px;
   padding:10px 10px 70px 10px;
   border:1px solid #BFBFBF;
   background-color:white;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
- 
-
 }
 
 .divProductos6 span{
+  margin-left: 100px;
   display: block;
   font-size: 35px;
   font-family: 'Amatic SC', cursive;
   position: relative;
-  margin-left: 120px;
   background-color: #fff;
   width: 520px;
   text-align: center;
@@ -355,7 +349,7 @@ transition: .7s;
 }
 
 .divProductos6:hover {
-  padding:20px 20px 100px 20px;
+  padding:10px 10px 10px 10px;
   transition: .7s;
 }
 
