@@ -20,8 +20,6 @@ body {
   background-image: url(https://st2.depositphotos.com/4030657/7690/v/950/depositphotos_76902949-stock-illustration-doodle-bakery-seamless-pattern.jpg);
 }
 
-
-
 .barraPrincipal{
 background-color: #2C2C2C ;
 opacity: 90%;
@@ -74,11 +72,12 @@ width: 100%;
 .navPrincipal{
   font-family: 'Nunito', sans-serif;
   height: auto;
+  
   width: 100%;
   background-color: #B2A288;
   box-shadow: 1px 1px 10px #000;
   border-color: 20px solid #000;
-  object-fit: cover;
+
   }
 
 .menuPrincipal{
@@ -137,13 +136,15 @@ transition: .7s;
 
 /* INFANTILES*/
 
-.divInfantiles{
+.divProductos1{
   display:inline-block;
+
 }
 
-.infantil1 span {
+.divProductos1 span {
   color: #000;
   display: block;
+  margin: 0px 50px 50px 50px;
   font-size: 50px;
   font-family: 'Amatic SC', cursive;
   position: relative;
@@ -154,9 +155,9 @@ transition: .7s;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
 }
 
-.infantil1 img {
+.divProductos1 img {
   display: inline-block;
-  margin-top: 75px;
+  margin: 50px 50px 0px 50px;
   width:400px;
   padding:10px 10px 70px 10px;
   border:1px solid #BFBFBF;
@@ -165,12 +166,9 @@ transition: .7s;
 }
 
 
-.infantil1 img:hover {
- transition: .7s;
- display: inline-block;
- border:1px solid #BFBFBF;
- background-color:rgba(0, 0, 0, 0.8);
- box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8) ;
+.divProductos1 :hover {
+transition: 0.4s;
+padding-top: 14px;
 }
 
 /*CLASICAS*/
@@ -180,9 +178,8 @@ transition: .7s;
 }
 
 .divProductos2 img {
-  margin-left: 100px;
   display: inline-block;
-  margin-top: 75px;
+  margin: 50px 50px 0px 50px;
   width:400px;
   padding:10px 10px 70px 10px;
   border:1px solid #BFBFBF;
@@ -191,9 +188,10 @@ transition: .7s;
  }
 
 .divProductos2 span{
-  margin-left: 100px;
+  color: #000;
   display: block;
-  font-size: 35px;
+  margin: 0px 50px 50px 50px;
+  font-size: 50px;
   font-family: 'Amatic SC', cursive;
   position: relative;
   background-color: #fff;
@@ -204,32 +202,32 @@ transition: .7s;
 }
 
 .divProductos2:hover {
-  padding:10px 10px 10px 10px;
-  transition: .7s;
+  transition: 0.4s;
+  padding-top: 14px;
 }
 
 /*CHOCOLATE*/
 .divProductos3 {
   width: 500px;
   display: inline;
+  align-content: center;
 }
 
 .divProductos3 img {
-  margin-left: 100px;
   display: inline-block;
-  margin-top: 75px;
+  margin: 50px 50px 0px 50px;
   width:400px;
   padding:10px 10px 70px 10px;
   border:1px solid #BFBFBF;
   background-color:white;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-  
 }
 
 .divProductos3 span{
-  margin-left: 100px;
+  color: #000;
   display: block;
-  font-size: 35px;
+  margin: 0px 50px 50px 50px;
+  font-size: 50px;
   font-family: 'Amatic SC', cursive;
   position: relative;
   background-color: #fff;
@@ -239,9 +237,9 @@ transition: .7s;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
 }
 
-.divProductos3:hover {
-  padding:10px 10px 10px 10px;
-  transition: .7s;
+.divProductos3 :hover {
+  transition: 0.4s;
+  padding-top: 14px;
 }
   
 /*FIESTAS*/
@@ -252,21 +250,20 @@ transition: .7s;
 }
 
 .divProductos4 img {
-  margin-left: 100px;
   display: inline-block;
-  margin-top: 75px;
+  margin: 50px 50px 0px 50px;
   width:400px;
   padding:10px 10px 70px 10px;
   border:1px solid #BFBFBF;
   background-color:white;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
- 
 }
 
 .divProductos4 span{
-  margin-left: 100px;
+  color: #000;
   display: block;
-  font-size: 35px;
+  margin: 0px 50px 50px 50px;
+  font-size: 50px;
   font-family: 'Amatic SC', cursive;
   position: relative;
   background-color: #fff;
@@ -277,8 +274,8 @@ transition: .7s;
 }
 
 .divProductos4:hover {
-  padding:10px 10px 10px 10px;
-  transition: .7s;
+  transition: 0.4s;
+  padding-top: 14px;
 }
 
 /* DESAYUNOS */
@@ -289,32 +286,31 @@ transition: .7s;
 
 .divProductos5 img {
   display: inline-block;
-  margin-left: 100px;
-  margin-top: 75px;
-  width:500px;
+  margin: 50px 50px 0px 50px;
+  width:400px;
   padding:10px 10px 70px 10px;
   border:1px solid #BFBFBF;
   background-color:white;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-  
 }
 
 .divProductos5 span{
-  margin-left: 100px;
+  color: #000;
   display: block;
-  font-size: 35px;
+  margin: 0px 50px 50px 50px;
+  font-size: 50px;
   font-family: 'Amatic SC', cursive;
   position: relative;
   background-color: #fff;
-  width: 520px;
+  width: 420px;
   text-align: center;
   border:1px solid #BFBFBF;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
 }
 
-.divProductos5:hover {
-  padding:10px 10px 10px 10px;
-  transition: .7s;
+.divProductos5 :hover {
+  transition: 0.4s;
+  padding-top: 14px;
 }
 
 /*MESA DULCE*/
@@ -325,10 +321,9 @@ transition: .7s;
 }
 
 .divProductos6 img {
-  margin-left: 100px;
   display: inline-block;
-  margin-top: 75px;
-  width:500px;
+  margin: 50px 50px 0px 50px;
+  width:400px;
   padding:10px 10px 70px 10px;
   border:1px solid #BFBFBF;
   background-color:white;
@@ -336,21 +331,22 @@ transition: .7s;
 }
 
 .divProductos6 span{
-  margin-left: 100px;
+  color: #000;
   display: block;
-  font-size: 35px;
+  margin: 0px 50px 50px 50px;
+  font-size: 50px;
   font-family: 'Amatic SC', cursive;
   position: relative;
   background-color: #fff;
-  width: 520px;
+  width: 420px;
   text-align: center;
   border:1px solid #BFBFBF;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
 }
 
 .divProductos6:hover {
-  padding:10px 10px 10px 10px;
-  transition: .7s;
+  transition: 0.4s;
+  padding-top: 14px;
 }
 
 /* FOOTER */
