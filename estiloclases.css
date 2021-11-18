@@ -167,8 +167,8 @@ transition: .7s;
 
 
 .divProductos1 :hover {
-transition: 0.4s;
-padding-top: 14px;
+  transition: 0.4s;
+  padding-top: 14px;
 }
 
 /*CLASICAS*/
