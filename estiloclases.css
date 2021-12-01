@@ -28,7 +28,7 @@ body {
 background-color: #2C2C2C ;
 opacity: 90%;
 position: relative;
-flex-wrap: wrap;
+
 height: 90px;
 width: 100%;
 }
@@ -56,7 +56,7 @@ width: 100%;
   position: absolute;
   height: 75px;
   top: 5px;
-  left: 190px;
+  left: 93%;
   text-shadow: 2px 3px black;  
   margin-top: 5px;
 
@@ -106,6 +106,8 @@ GENERICO
   align-items: center;
   margin-top: 80px;
   margin-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .divClases div{
@@ -114,8 +116,9 @@ GENERICO
   font-size: 50px;
   font-family: 'Amatic SC', cursive;
   position: relative;
-  width: 500px;
-  margin: 30px;
+  width: 400px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .divClases img {
