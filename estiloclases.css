@@ -13,12 +13,16 @@ Rosa pastel:   #EEBDB6;
 */
 
 body {
-  display: flex;
-  flex-direction: column;
+  max-width: 1920px;
+  max-height: 1080px; 
+  display: block;
   background-color:#fff;
   overflow-x: hidden;
   background-image: url(https://st2.depositphotos.com/4030657/7690/v/950/depositphotos_76902949-stock-illustration-doodle-bakery-seamless-pattern.jpg);
 }
+
+
+
 
 .barraPrincipal{
 background-color: #2C2C2C ;
@@ -29,6 +33,8 @@ height: 90px;
 width: 100%;
 }
 
+
+
 .tituloprincipal {
 	color: #fff;
 	font-family: 'Great Vibes', cursive;
@@ -38,7 +44,7 @@ width: 100%;
   text-shadow: 2px 2px 5px #000;
   background-color: none;
   display: inline-block;
-  position: absolute;
+  position: relative;
   left: 20px;
 }
 
@@ -56,6 +62,7 @@ width: 100%;
 
 }
 
+
 .titulosecundario {
   padding: 15px;
   font-family: 'Nunito', sans-serif;;
@@ -72,12 +79,11 @@ width: 100%;
 .navPrincipal{
   font-family: 'Nunito', sans-serif;
   height: auto;
-  
   width: 100%;
   background-color: #B2A288;
   box-shadow: 1px 1px 10px #000;
   border-color: 20px solid #000;
-
+  position: relative;
   }
 
 .menuPrincipal{
@@ -87,42 +93,7 @@ width: 100%;
 /*  PAGINA PRINCIPAL
 
 GENERICO
-.divProductos {
-  width: 500px;
-  display: inline;
-}
 
-.divProductos img {
-  display: inline-block;
-  margin-left: 120px;
-  margin-top: 75px;
-  width:400px;
-  padding:10px 10px 70px 10px;
-  border:1px solid #BFBFBF;
-  background-color:white;
-  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-  transform:rotate(-10deg);
-
-}
-
-.divProductos span{
-     display: block;
-    font-size: 35px;
-    font-family: 'Amatic SC', cursive;
-    transform:rotate(-10deg);
-    margin-left: 180px;
-    background-color: #fff;
-    width: 420px;
-    text-align: center;
-    border:1px solid #BFBFBF;
-    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-}
-
-.divProductos:hover {
-padding:20px 20px 100px 20px;
-transform:rotate(10deg);
-transition: .7s;
-}
 
 */ 
 
@@ -131,66 +102,34 @@ transition: .7s;
 .divClases{
   display: flex;
   flex-wrap: wrap;
-  margin-left: 10%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 150px;
 }
 
-/* INFANTILES*/
-
-.divProductos1{
-  display:inline-block;
-
-}
-
-.divProductos1 span {
+.divClases div{
   color: #000;
   display: block;
-  margin: 0px 50px 50px 50px;
   font-size: 50px;
   font-family: 'Amatic SC', cursive;
   position: relative;
-  background-color: #fff;
-  width: 420px;
-  text-align: center;
-  border:1px solid #BFBFBF;
-  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-}
-
-.divProductos1 img {
-  display: inline-block;
-  margin: 50px 50px 0px 50px;
-  width:400px;
-  padding:10px 10px 70px 10px;
-  border:1px solid #BFBFBF;
-  background-color:white;
-  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-}
-
-
-.divProductos1 :hover {
-  transition: 0.4s;
-  padding-top: 14px;
-}
-
-/*CLASICAS*/
-.divProductos2 {
   width: 500px;
-  display: inline;
+  margin: 30px;
 }
 
-.divProductos2 img {
+.divClases img {
   display: inline-block;
-  margin: 50px 50px 0px 50px;
   width:400px;
   padding:10px 10px 70px 10px;
   border:1px solid #BFBFBF;
-  background-color:white;
+  background-color:#fff;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
- }
+}
 
-.divProductos2 span{
+.divClases span{
   color: #000;
   display: block;
-  margin: 0px 50px 50px 50px;
   font-size: 50px;
   font-family: 'Amatic SC', cursive;
   position: relative;
@@ -201,153 +140,19 @@ transition: .7s;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
 }
 
-.divProductos2:hover {
+
+.divClases img:hover {
   transition: 0.4s;
-  padding-top: 14px;
+  background-color:#EEBDB6;
 }
 
-/*CHOCOLATE*/
-.divProductos3 {
-  width: 500px;
-  display: inline;
-  align-content: center;
-}
 
-.divProductos3 img {
-  display: inline-block;
-  margin: 50px 50px 0px 50px;
-  width:400px;
-  padding:10px 10px 70px 10px;
-  border:1px solid #BFBFBF;
-  background-color:white;
-  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-}
+ 
 
-.divProductos3 span{
-  color: #000;
-  display: block;
-  margin: 0px 50px 50px 50px;
-  font-size: 50px;
-  font-family: 'Amatic SC', cursive;
-  position: relative;
-  background-color: #fff;
-  width: 420px;
-  text-align: center;
-  border:1px solid #BFBFBF;
-  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-}
 
-.divProductos3 :hover {
-  transition: 0.4s;
-  padding-top: 14px;
-}
-  
-/*FIESTAS*/
 
-.divProductos4 {
-  width: 500px;
-  display: inline;
-}
 
-.divProductos4 img {
-  display: inline-block;
-  margin: 50px 50px 0px 50px;
-  width:400px;
-  padding:10px 10px 70px 10px;
-  border:1px solid #BFBFBF;
-  background-color:white;
-  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-}
 
-.divProductos4 span{
-  color: #000;
-  display: block;
-  margin: 0px 50px 50px 50px;
-  font-size: 50px;
-  font-family: 'Amatic SC', cursive;
-  position: relative;
-  background-color: #fff;
-  width: 420px;
-  text-align: center;
-  border:1px solid #BFBFBF;
-  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-}
-
-.divProductos4:hover {
-  transition: 0.4s;
-  padding-top: 14px;
-}
-
-/* DESAYUNOS */
-.divProductos5 {
-  width: 500px;
-  display: inline;
-}
-
-.divProductos5 img {
-  display: inline-block;
-  margin: 50px 50px 0px 50px;
-  width:400px;
-  padding:10px 10px 70px 10px;
-  border:1px solid #BFBFBF;
-  background-color:white;
-  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-}
-
-.divProductos5 span{
-  color: #000;
-  display: block;
-  margin: 0px 50px 50px 50px;
-  font-size: 50px;
-  font-family: 'Amatic SC', cursive;
-  position: relative;
-  background-color: #fff;
-  width: 420px;
-  text-align: center;
-  border:1px solid #BFBFBF;
-  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-}
-
-.divProductos5 :hover {
-  transition: 0.4s;
-  padding-top: 14px;
-}
-
-/*MESA DULCE*/
-
-.divProductos6 {
-  width: 500px;
-  display: inline;
-}
-
-.divProductos6 img {
-  display: inline-block;
-  margin: 50px 50px 0px 50px;
-  width:400px;
-  padding:10px 10px 70px 10px;
-  border:1px solid #BFBFBF;
-  background-color:white;
-  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-}
-
-.divProductos6 span{
-  color: #000;
-  display: block;
-  margin: 0px 50px 50px 50px;
-  font-size: 50px;
-  font-family: 'Amatic SC', cursive;
-  position: relative;
-  background-color: #fff;
-  width: 420px;
-  text-align: center;
-  border:1px solid #BFBFBF;
-  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-}
-
-.divProductos6:hover {
-  transition: 0.4s;
-  padding-top: 14px;
-}
 
 /* FOOTER */
 
