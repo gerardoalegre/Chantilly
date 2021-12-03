@@ -24,7 +24,7 @@ body {
 
 
 .barraPrincipal{
-background-color: #2C2C2C ;
+background-color: #725A57 ;
 opacity: 90%;
 position: relative;
 height: 90px;
@@ -75,7 +75,7 @@ width: 100%;
   font-family: 'Nunito', sans-serif;
   height: auto;
   width: 100%;
-  background-color: #B2A288;
+  background-color: #BE9792;
   box-shadow: 1px 1px 10px #000;
   border-color: 20px solid #000;
   position: relative;
@@ -97,7 +97,7 @@ width: 100%;
   font-size: 100px;
   font-family: 'Amatic SC', cursive;
   position: relative;
-  background-color: #B2A288;
+  background-color: #EEBDB6;
   width: 95%;
   opacity: 95%;
   text-align: center;
@@ -198,7 +198,7 @@ footer{
     bottom: 0px;
     height: 100px;
     width: 100%;
-    background: #2C2C2C;
+    background: #392D2C;
     display: inline-block;
     text-align: center;
   }
