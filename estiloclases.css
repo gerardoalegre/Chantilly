@@ -95,7 +95,7 @@ width: 100%;
   margin-right: auto;
   margin-top: 40px;
   font-size: 100px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC';
   position: relative;
   background-color: #EEBDB6;
   width: 95%;
@@ -121,7 +121,7 @@ width: 100%;
   color: #000;
   display: block;
   font-size: 50px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC';
   position: relative;
   width: 410px;
   margin-left: 3px;
@@ -142,7 +142,7 @@ width: 100%;
   color: #fff;
   display: block;
   font-size: 50px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC' ;
   position: relative;
   background-color: #EEBDB6;
   width: 420px;
@@ -168,11 +168,6 @@ width: 100%;
 
  
 
-
-
-
-
-
 /* FOOTER */
 
 .espaciado{
@@ -195,7 +190,7 @@ height: 150px;
 
 
 .contacto{
- font-family: 'Amatic SC', cursive;
+ font-family: 'Amatic SC';
  font-size:50px;
  color: #fff;
  width: 100%;
