@@ -31,7 +31,8 @@ body {
   display: flex;
   flex-direction: column;
   background-color:#fff;
-  background-image: url(https://st2.depositphotos.com/4030657/7690/v/950/depositphotos_76902949-stock-illustration-doodle-bakery-seamless-pattern.jpg);
+  /*background-image: url(https://st2.depositphotos.com/4030657/7690/v/950/depositphotos_76902949-stock-illustration-doodle-bakery-seamless-pattern.jpg);*/
+  background-image: url(./FONDO/dibujado-mano-doodle-comida-bebida-san-valentin_41066-1380.jpg) ;
 }
 
 
