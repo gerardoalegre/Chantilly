@@ -12,10 +12,22 @@ Rosa pastel:   #EEBDB6;
 
 */
 
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5)
+{
 
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+}
 body {
   max-width: 1920px;
-  max-height: 1280px;
+
   display: flex;
   flex-direction: column;
   background-color:#fff;
@@ -250,6 +262,7 @@ height: 150px;
 
 footer img:hover{
   background-color: #EEBDB6;
+  transition: 0.5s;
 }
 
 
