@@ -136,7 +136,7 @@ width: 100%;
   font-size: 50px;
   font-family: 'Amatic SC';
   position: relative;
-  width: 410px;
+  width: 90%;
   margin-left: 3px;
   margin-right: 3px;
   margin-top: 20px;
@@ -171,12 +171,13 @@ width: 100%;
   background-color:#EEBDB6;
 }
 
-@media screen and (max-width: 400px) {
-
-.divClases div {
-  width: 10000px;
- }
-  
+.container {
+  padding: 10px;
+ border: 1px solid #000;
+ width: 95%;
+ margin: 10px;
+ background-color:#fff;
+ box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
 }
 
  
