@@ -27,12 +27,13 @@ only screen and (min-device-pixel-ratio: 1.5)
 }
 body {
   max-width: 1920px;
-
   display: flex;
   flex-direction: column;
   background-color:#fff;
   /*background-image: url(https://st2.depositphotos.com/4030657/7690/v/950/depositphotos_76902949-stock-illustration-doodle-bakery-seamless-pattern.jpg);*/
   background-image: url(./FONDO/dibujado-mano-doodle-comida-bebida-san-valentin_41066-1380.jpg) ;
+  background-size: 200px;
+  
 }
 
 
@@ -65,7 +66,7 @@ width: 100%;
   position: absolute;
   height: 75px;
   top: 5px;
-  left: 93%;
+  left: 87%;
   text-shadow: 2px 3px black;  
   margin-top: 5px;
 
@@ -122,7 +123,7 @@ width: 100%;
 .divClases{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   margin-top: 20px;
   margin-bottom: 150px;
@@ -194,25 +195,25 @@ height: 150px;
   bottom: 0px;
   height: 100%;
   width: 100%;
-  background: #392D2C;
+  background: #28222D;
   display: inline-block;
   text-align: center;
 }
 
 
-
-
 .contacto{
  font-family: 'Amatic SC';
  font-size:50px;
+ position: relative;
+ top: 10px;
  color: #fff;
  width: 100%;
  margin-left: auto;
-
+text-decoration: underline dotted;
 }
-
-
   
+
+
 .divRedes{
   display:inline-block;
   margin: auto;
@@ -245,26 +246,35 @@ height: 150px;
    padding: 10px;
   }
 
-.facebook {
-   height: 50px;
+.divRedes span{
 
-  
+position: relative;
+bottom: 70px;
+right: 50px;;
+}
+
+.facebook {
+   height: 30px;
   }
 
 .instagram {
-  width: 50px;
-
+  width: 30px;
 }
 
 .whatsapp {
-  width: 50px;
-
+  width: 30px;
 }
 
 footer img:hover{
   background-color: #EEBDB6;
   transition: 0.5s;
 }
+
+.divRedes span:hover{
+ color: #EEBDB6;
+  transition: 0.5s;
+}
+
 
 
 

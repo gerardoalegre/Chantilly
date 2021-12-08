@@ -27,12 +27,12 @@ only screen and (min-device-pixel-ratio: 1.5)
 }
 body {
   max-width: 1920px;
-
   display: flex;
   flex-direction: column;
   background-color:#fff;
   /*background-image: url(https://st2.depositphotos.com/4030657/7690/v/950/depositphotos_76902949-stock-illustration-doodle-bakery-seamless-pattern.jpg);*/
   background-image: url(../FONDO/dibujado-mano-doodle-comida-bebida-san-valentin_41066-1380.jpg) ;
+
 }
 
 
@@ -65,7 +65,7 @@ width: 100%;
   position: absolute;
   height: 75px;
   top: 5px;
-  left: 93%;
+  left: 87%;
   text-shadow: 2px 3px black;  
   margin-top: 5px;
 
@@ -132,7 +132,7 @@ width: 100%;
 
 .divClases div{
   color: #000;
-  display: block;
+  display: inline-block;
   font-size: 50px;
   font-family: 'Amatic SC';
   position: relative;
@@ -148,7 +148,7 @@ width: 100%;
   padding:10px 10px 70px 10px;
   border:1px solid #BFBFBF;
   background-color:#fff;
-  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+  box-shadow:10px 10px 30px #725A57;
 }
 
 .divClases span{
@@ -156,7 +156,9 @@ width: 100%;
   display: block;
   font-size: 50px;
   font-family: 'Amatic SC' ;
-  position: relative;
+  position: absolute;
+  left: 58%;
+  bottom: 90%;
   background-color: #EEBDB6;
   width: 420px;
   text-align: center;
@@ -165,6 +167,13 @@ width: 100%;
   text-shadow: 2px 2px 2px  #000;
 }
 
+.divClases p{
+  border: 1px solid red;
+  position: relative;
+  width: 60%;
+  height: 50%;
+  display: inline-block;
+  }
 
 .divClases img:hover {
   transition: 0.4s;
@@ -172,13 +181,16 @@ width: 100%;
 }
 
 .container {
-  padding: 10px;
- border: 1px solid #000;
- width: 95%;
- margin: 10px;
- background-color:#fff;
- box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+display: inline-block;
+padding: 30px;
+border: 1px solid #725A57;
+width: 95%;
+margin: 10px;
+background-color:#fff;
+box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+border-radius: 12px;
 }
+
 
  
 
