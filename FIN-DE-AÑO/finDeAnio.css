@@ -30,14 +30,15 @@ body {
   display: flex;
   flex-direction: column;
   background-color:#fff;
-  /*background-image: url(https://st2.depositphotos.com/4030657/7690/v/950/depositphotos_76902949-stock-illustration-doodle-bakery-seamless-pattern.jpg);*/
-  background-image: url(../FONDO/dibujado-mano-doodle-comida-bebida-san-valentin_41066-1380.jpg) ;
-
+  /*background-image: url(https://st2.depositphotos.com/4030657/7690/v/950/depositphotos_76902949-stock-illustration-doodle-bakery-seamless-pattern.jpg);
+  background-image: url(../FONDO/dibujado-mano-doodle-comida-bebida-san-valentin_41066-1380.jpg) ;*/
+ background-size: 500px;
+ background-image: url(./patron-navidad-vintage-fondo.jpg);
 }
 
 
 .barraPrincipal{
-background-color: #725A57 ;
+background-color: #94A78A ;
 opacity: 90%;
 position: relative;
 height: 90px;
@@ -88,7 +89,7 @@ width: 100%;
   font-family: 'Nunito', sans-serif;
   height: auto;
   width: 100%;
-  background-color: #BE9792;
+  background-color:#1D3A0E;
   box-shadow: 1px 1px 10px #000;
   border-color: 20px solid #000;
   position: relative;
@@ -110,11 +111,11 @@ width: 100%;
   font-size: 100px;
   font-family: 'Amatic SC';
   position: relative;
-  background-color: #EEBDB6;
+  background-color: #721B1F;
   width: 95%;
-  opacity: 95%;
+  opacity: 98%;
   text-align: center;
-  border:1px solid #B2A288;
+  border:1px solid #721B1F;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
   border-radius: 10px;
 }
@@ -122,164 +123,135 @@ width: 100%;
 .divClases{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 150px;
+  justify-content: center;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
+
+  margin-bottom: 100px;
 }
 
 .divClases div{
   color: #000;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+
   font-size: 50px;
   font-family: 'Amatic SC';
-  position: relative;
-  width: 90%;
-  margin-left: 3px;
-  margin-right: 3px;
-  margin-top: 20px;
 }
 
 .divClases img {
   display: inline-block;
-  width:400px;
-  padding:10px 10px 70px 10px;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 40px;
+  width:41%;
+  padding:10px 10px 10px 10px;
   border:1px solid #BFBFBF;
   background-color:#fff;
   box-shadow:10px 10px 30px #725A57;
-}
-
-.divClases span{
-  color: #fff;
-  display: block;
-  font-size: 50px;
-  font-family: 'Amatic SC' ;
-  position: absolute;
-  left: 58%;
-  bottom: 90%;
-  background-color: #EEBDB6;
-  width: 420px;
-  text-align: center;
-  border:1px solid #BFBFBF;
-  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-  text-shadow: 2px 2px 2px  #000;
-}
-
-.divClases p{
-  border: 1px solid red;
   position: relative;
-  width: 60%;
-  height: 50%;
-  display: inline-block;
-  }
 
-.divClases img:hover {
-  transition: 0.4s;
-  background-color:#EEBDB6;
-}
 
-.container {
-display: inline-block;
-padding: 30px;
-border: 1px solid #725A57;
-width: 95%;
-margin: 10px;
-background-color:#fff;
-box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-border-radius: 12px;
 }
 
 
- 
+
 
 /* FOOTER */
 
 .espaciado{
-width: 100%;
-height: 150px;
-}
-
-
-.footerRedes{
-  position: relative;
-  bottom: 0px;
-  height: 100%;
   width: 100%;
-  background: #392D2C;
-  display: inline-block;
-  text-align: center;
-}
-
-
-
-
-.contacto{
- font-family: 'Amatic SC';
- font-size:50px;
- color: #fff;
- width: 100%;
- margin-left: auto;
-
-}
-
-
-  
-.divRedes{
-  display:inline-block;
-  margin: auto;
-  width: 100%;
-}
-
-  .footerRedes a{
-  font-family: 'Nunito', sans-serif;
-  color: #fff;
-  line-height: 2;
-  font-weight: 5;
-  margin: auto;
+  height: 150px;
   }
   
-  .spanCopy {
-    line-height: 2;
-    font-weight: 5;
+  
+  .footerRedes{
+    position: relative;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background: #28222D;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  
+  .contacto{
+   font-family: 'Amatic SC';
+   font-size:50px;
+   position: relative;
+   top: 10px;
+   color: #fff;
+   width: 100%;
+   margin-left: auto;
+  text-decoration: underline dotted;
+  }
+    
+  
+  
+  .divRedes{
+    display:inline-block;
+    margin: auto;
+    width: 100%;
+  }
+  
+    .footerRedes a{
     font-family: 'Nunito', sans-serif;
     color: #fff;
-    position: absolute;
-    bottom: 0;
-    right: 10px;
-    font-size: 17px;
-    text-align: right;
-  }
-
-  footer img {
-   margin: 50px;
-   border-radius: 5px;
-   padding: 10px;
-  }
-
-.facebook {
-   height: 50px;
-
+    line-height: 2;
+    font-weight: 5;
+    margin: auto;
+    }
+    
+    .spanCopy {
+      line-height: 2;
+      font-weight: 5;
+      font-family: 'Nunito', sans-serif;
+      color: #fff;
+      position: absolute;
+      bottom: 0;
+      right: 10px;
+      font-size: 17px;
+      text-align: right;
+    }
   
+    footer img {
+     margin: 50px;
+     border-radius: 5px;
+     padding: 10px;
+    }
+  
+  .divRedes span{
+  
+  position: relative;
+  bottom: 70px;
+  right: 50px;;
   }
-
-.instagram {
-  width: 50px;
-
-}
-
-.whatsapp {
-  width: 50px;
-
-}
-
-footer img:hover{
-  background-color: #EEBDB6;
-  transition: 0.5s;
-}
-
-
+  
+  .facebook {
+     height: 30px;
+    }
+  
+  .instagram {
+    width: 30px;
+  }
+  
+  .whatsapp {
+    width: 30px;
+  }
+  
+  footer img:hover{
+    background-color: #EEBDB6;
+    transition: 0.5s;
+  }
+  
+  .divRedes span:hover{
+   color: #EEBDB6;
+    transition: 0.5s;
+  }
+  
+  
 
   /* FIN FOOTER */
   

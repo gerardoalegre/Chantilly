@@ -6,25 +6,21 @@
 a:link {text-decoration: none; color: #fff;}
 a:visited {text-decoration: none;}
 
-/*Colores 
-Champagne: #EED9B6
-Rosa pastel:   #EEBDB6;
 
-*/
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5)
-{
 
-  html,
-  body{
+{
+  html,  body{
     width:100%;
     overflow-x:hidden;
   }
 }
+
 body {
   max-width: 1920px;
   display: flex;
