@@ -32,7 +32,7 @@ body {
   background-color:#fff;
   /*background-image: url(https://st2.depositphotos.com/4030657/7690/v/950/depositphotos_76902949-stock-illustration-doodle-bakery-seamless-pattern.jpg);
   background-image: url(../FONDO/dibujado-mano-doodle-comida-bebida-san-valentin_41066-1380.jpg) ;*/
- background-size: 500px;
+ background-size: 600px;
  background-image: url(./patron-navidad-vintage-fondo.jpg);
 }
 
@@ -145,11 +145,11 @@ width: 100%;
   margin-left: 3%;
   margin-right: 3%;
   margin-top: 40px;
-  width:41%;
-  padding:10px 10px 10px 10px;
-  border:1px solid #BFBFBF;
+  width:40%;
+  padding:20px 20px 90px 20px;
+  border:1px solid #721B1F;
   background-color:#fff;
-  box-shadow:10px 10px 30px #725A57;
+  box-shadow:10px 10px 30px #000;
   position: relative;
 
 
