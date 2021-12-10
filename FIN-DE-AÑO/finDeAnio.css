@@ -59,7 +59,7 @@ width: 100%;
 }
 
 .tituloprincipal:hover {
-  color: #EEBDB6;  
+  color: #721B1F;  
 }
 
 .logotitulo { 
@@ -124,7 +124,7 @@ width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 95%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 
@@ -135,7 +135,6 @@ width: 100%;
   color: #000;
   display: flex;
   flex-wrap: wrap;
-
   font-size: 50px;
   font-family: 'Amatic SC';
 }
@@ -145,7 +144,7 @@ width: 100%;
   margin-left: 3%;
   margin-right: 3%;
   margin-top: 40px;
-  width:39%;
+  width:38%;
   padding:20px 20px 90px 20px;
   border:1px solid #721B1F;
   background-color:#fff;
