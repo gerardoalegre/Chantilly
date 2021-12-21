@@ -32,7 +32,7 @@ body {
   background-color:#fff;
   /*background-image: url(https://st2.depositphotos.com/4030657/7690/v/950/depositphotos_76902949-stock-illustration-doodle-bakery-seamless-pattern.jpg);
   background-image: url(../FONDO/dibujado-mano-doodle-comida-bebida-san-valentin_41066-1380.jpg) ;*/
- background-size: 600px;
+ background-size: 650px;
  background-image: url(./patron-navidad-vintage-fondo.jpg);
 }
 
@@ -74,10 +74,10 @@ width: 100%;
 
 .titulosecundario {
   padding: 15px;
-  font-family: 'Nunito', sans-serif;;
+  font-family: 'Amatic SC';
+  letter-spacing: 2px;
   line-height: 15px;
-  font-weight: 50px;
-  font-size: 30px;
+  font-size: 40px;
   color: #FAF5EC;
   text-shadow: 1px 1px 1px #000;
   width: 100%;
@@ -123,36 +123,77 @@ width: 100%;
 .divClases{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
+  justify-content: space-around;
+  align-items: inherit;
+  margin-top: 20px;
+  margin-bottom: 150px;
   margin-left: auto;
   margin-right: auto;
-
-  margin-bottom: 100px;
 }
 
 .divClases div{
   color: #000;
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
   font-size: 50px;
   font-family: 'Amatic SC';
+  position: relative;
+  width: 48%;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 20px;
+
 }
 
 .divClases img {
   display: inline-block;
   margin-left: 2%;
   margin-right: 2%;
-  margin-top: 40px;
-  width:40%;
+  margin-top: 20px;
+  position: relative;
+  width:88%;
   padding:20px 20px 20px 20px;
   border:1px solid #721B1F;
   background-color:#fff;
-  box-shadow:10px 10px 30px #000;
-  position: relative;
+  box-shadow:20px 20px 40px #000;
+}
 
+.divClases span{
+  display: block;
+  color: #fff;
+  font-size: 60px;
+  font-family: 'Amatic SC' ;
+  background-color: #721B1F;
+  width: 100%;
+  text-align: center;
+  border: 0.5px solid  #000;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+  text-shadow: 2px 2px 2px  #000;
+  margin-top: 40px;
 
 }
+
+
+@media screen and (max-device-width: 480px){
+  
+  .divClases div{
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 50px;
+    font-family: 'Amatic SC';
+    position: relative;
+    width: 100%;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 20px;
+  }
+
+}
+
+
+
+
 
 
 

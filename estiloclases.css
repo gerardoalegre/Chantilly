@@ -129,6 +129,7 @@ width: 100%;
 }
 
 .divClases div{
+  border-top: 1px solid red;
   color: #000;
   display: block;
   font-size: 50px;
@@ -170,12 +171,9 @@ width: 100%;
  transform: scale(1.025);
 }
 
-@media screen and (max-width: 400px) {
+@media  screen and (max-width: 400px) {
 
-.divClases div {
-  width: 10000px;
- }
-  
+
 }
 
  
