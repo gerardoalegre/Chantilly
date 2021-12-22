@@ -7,30 +7,29 @@ a:link {text-decoration: none; color: #fff;}
 a:visited {text-decoration: none;}
 
 
-
 @media
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5)
-
 {
-  html,  body{
+
+  html,
+  body{
     width:100%;
     overflow-x:hidden;
   }
 }
-
 body {
-  max-width: 1920px;
-  display: flex;
-  flex-direction: column;
-  background-color:#fff;
-  /*background-image: url(https://st2.depositphotos.com/4030657/7690/v/950/depositphotos_76902949-stock-illustration-doodle-bakery-seamless-pattern.jpg);
-  background-image: url(./FONDO/dibujado-mano-doodle-comida-bebida-san-valentin_41066-1380.jpg) ;*/
-  background-image: url(./FONDO/dibujado-mano-.jpg);
-  background-size: 290px;
-  
+max-width: 1920px;
+display: flex;
+flex-direction: column;
+background-color:#fff;
+/*background-image: url(https://st2.depositphotos.com/4030657/7690/v/950/depositphotos_76902949-stock-illustration-doodle-bakery-seamless-pattern.jpg);
+background-image: url(./FONDO/dibujado-mano-doodle-comida-bebida-san-valentin_41066-1380.jpg) ;*/
+background-image: url(../FONDO/dibujado-mano-.jpg);
+background-size: 290px;
+
 }
 
 
@@ -43,11 +42,11 @@ width: 100%;
 }
 
 .tituloprincipal {
-	color: #fff;
-	font-family: 'Great Vibes', cursive;
-	line-height: 0.25;
-	font-weight: 10;
-	font-size: 60px;
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+    line-height: 0.25;
+    font-weight: 10;
+    font-size: 60px;
   text-shadow: 2px 2px 5px #000;
   background-color: none;
   display: inline-block;
@@ -117,11 +116,12 @@ width: 100%;
   border-radius: 10px;
 }
 
+
 .divClases{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items:;
+  align-items: inherit;
   margin-top: 20px;
   margin-bottom: 150px;
   margin-left: auto;
@@ -129,153 +129,263 @@ width: 100%;
 }
 
 .divClases div{
-
   color: #000;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   font-size: 50px;
   font-family: 'Amatic SC';
   position: relative;
   width: 410px;
-  margin-left: 3px;
-  margin-right: 3px;
+  margin-left: 6px;
+  margin-right: 6px;
   margin-top: 20px;
+
 }
 
 .divClases img {
   display: inline-block;
-  width:400px;
-  padding:10px 10px 70px 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 20px;
+  position: relative;
+  width:88%;
+  padding:10px 10px 10px 10px;
   border:1px solid #BFBFBF;
   background-color:#fff;
-  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+  box-shadow:20px 20px 40px #000;
 }
 
 .divClases span{
-  color: #fff;
   display: block;
-  font-size: 50px;
+  color: #fff;
+  font-size: 60px;
   font-family: 'Amatic SC' ;
-  position: relative;
-  margin-bottom: 3%;
-  background-color:  #C27B7C;
-  width: 420px;
+  background-color: #C27B7C;
+  width: 100%;
   text-align: center;
-  border: 0.5px solid  C27B7C;
+  border: 0.5px solid NONE;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
   text-shadow: 2px 2px 2px  #000;
-}
-
-
-.divClases img:hover {
- transition: 0.4s;
- transform: scale(1.025);
-}
-
-@media  screen and (max-width: 400px) {
-
+  margin-top: 40px;
 
 }
 
- 
 
-/* FOOTER */
 
-.espaciado{
-width: 100%;
-height: 150px;
+
+
+@media screen and (max-device-width: 480px){
+
+  header {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center; 
 }
 
-
-.footerRedes{
-  position: relative;
-  bottom: 0px;
-  height: 100%;
-  width: 100%;
-  background: #28222D;
-  display: inline-block;
-  text-align: center;
-}
-
-
-.contacto{
- font-family: 'Amatic SC';
- font-size:50px;
- position: relative;
- top: 10px;
- color: #fff;
- width: 100%;
- margin-left: auto;
-text-decoration: underline dotted;
-}
-  
-
-
-.divRedes{
-  display:inline-block;
-  margin: auto;
-  width: 100%;
-}
-
-  .footerRedes a{
-  font-family: 'Nunito', sans-serif;
+  .tituloprincipal {
   color: #fff;
-  line-height: 2;
-  font-weight: 5;
-  margin: auto;
-  }
-  
-  .spanCopy {
-    line-height: 2;
-    font-weight: 5;
-    font-family: 'Nunito', sans-serif;
-    color: #fff;
-    position: absolute;
-    bottom: 0;
-    right: 10px;
-    font-size: 17px;
-    text-align: right;
-  }
-
-  footer img {
-   margin: 50px;
-   border-radius: 5px;
-   padding: 10px;
-  }
-
-.divRedes span{
-
-position: relative;
-bottom: 70px;
-right: 50px;;
+  font-family: 'Great Vibes', cursive;
+  line-height: 0.25;
+  font-weight: 10;
+  font-size: 130px;
+  text-shadow: 2px 2px 5px #000;
+  background-color: none;
+  display: inline-block;
 }
 
-.facebook {
-   height: 30px;
+.tituloprincipal:hover {
+  color: #EEBDB6;  
+}
+
+.tituloCatalogo {
+  color: #fff;
+  text-shadow: 2px 2px 2px  #000;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  font-size: 130px;
+  font-family: 'Amatic SC';
+  position: relative;
+  background-color: #C27B7C;
+  width: 90%;
+  opacity: 95%;
+  text-align: center;
+  border:0.5px solid #C27B7C;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.barraPrincipal{
+  background-color: #725A57 ;
+  opacity: 90%;
+  position: relative;
+  height: 200px;
+  width: 100%;
   }
+  
+
+  .logotitulo { 
+    position: absolute;
+    height: 130px;
+    top: 20%;
+    left: 72%;
+    text-shadow: 2px 3px black;  
+    } 
+
+
+  .divClases div{
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Amatic SC';
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    top: 20px
+  }
+
+  .divClases span{
+    display: block;
+    color: #fff;
+    height: 170px;
+    font-size: 100px;
+    font-family: 'Amatic SC' ;
+    background-color: #C27B7C;
+    text-align: center;
+    border: 0.5px solid NONE;
+    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 2px  #000;
+    margin-top: 80px;
+    line-height: 170px;
+    opacity: 95%;
+  }
+ 
+ .contacto span{
+   font-size: 70px;
+ }
+
+  
+ .facebook {
+  height: 190px;
+ }
 
 .instagram {
-  width: 30px;
+ width: 70px;
 }
 
 .whatsapp {
-  width: 30px;
-}
-
-footer img:hover{
-  background-color: #EEBDB6;
-  transition: 0.5s;
-}
-
-.divRedes span:hover{
- color: #EEBDB6;
-  transition: 0.5s;
+ width: 30px;
 }
 
 
 
+
+}
+
+  
+/* FOOTER */
+
+.espaciado{
+  width: 100%;
+  height: 150px;
+  }
+  
+  
+  .footerRedes{
+    position: relative;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background: #28222D;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  
+  .contacto{
+   font-family: 'Amatic SC';
+   font-size: 50px;
+   position: relative;
+   top: 10px;
+   color: #fff;
+   width: 100%;
+   margin-left: auto;
+  text-decoration: underline dotted;
+  }
+    
+  
+  
+  .divRedes{
+    display:inline-block;
+    margin: auto;
+    width: 100%;
+  }
+  
+    .footerRedes a{
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    line-height: 2;
+    font-weight: 5;
+    margin: auto;
+    }
+    
+    .spanCopy {
+      line-height: 2;
+      font-weight: 5;
+      font-family: 'Nunito', sans-serif;
+      color: #fff;
+      position: absolute;
+      bottom: 0;
+      right: 10px;
+      font-size: 17px;
+      text-align: right;
+    }
+  
+    footer img {
+     margin: 50px;
+     border-radius: 5px;
+     padding: 10px;
+    }
+  
+  .divRedes span{
+  
+  position: relative;
+  bottom: 70px;
+  right: 50px;;
+  }
+  
+  .facebook {
+     height: 30px;
+    }
+  
+  .instagram {
+    width: 30px;
+  }
+  
+  .whatsapp {
+    width: 30px;
+  }
+  
+  footer img:hover{
+    background-color: #EEBDB6;
+    transition: 0.5s;
+  }
+  
+  .divRedes span:hover{
+   color: #EEBDB6;
+    transition: 0.5s;
+  }
+  
+  
 
   /* FIN FOOTER */
-  
 
 
 /* FIN PAGINA PRINCIPAL*/

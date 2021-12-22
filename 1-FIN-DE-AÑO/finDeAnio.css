@@ -175,6 +175,62 @@ width: 100%;
 
 @media screen and (max-device-width: 480px){
   
+  
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+   }
+   
+     .tituloprincipal {
+     color: #fff;
+     font-family: 'Great Vibes', cursive;
+     line-height: 0.25;
+     font-weight: 10;
+     font-size: 130px;
+     text-shadow: 2px 2px 5px #000;
+     background-color: none;
+     display: inline-block;
+   }
+   
+
+   .tituloCatalogo {
+    color: #fff;
+    text-shadow: 2px 2px 2px  #000;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: 130px;
+    font-family: 'Amatic SC';
+    position: relative;
+    width: 90%;
+    opacity: 95%;
+    text-align: center;
+    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+  }
+  
+  .barraPrincipal{
+    opacity: 90%;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    }
+
+
+    .logotitulo { 
+      position: absolute;
+      height: 130px;
+      top: 20%;
+      left: 72%;
+      text-shadow: 2px 3px black;  
+      } 
+  
+
+
+   
+
   .divClases div{
     color: #000;
     display: flex;
@@ -188,6 +244,26 @@ width: 100%;
     margin-right: 3px;
     margin-top: 20px;
   }
+
+  .divClases span{
+    display: block;
+    color: #fff;
+    height: 170px;
+    font-size: 100px;
+    font-family: 'Amatic SC' ;
+    text-align: center;
+    border: 0.5px solid NONE;
+    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 2px  #000;
+    margin-top: 80px;
+    line-height: 170px;
+    opacity: 95%;
+  }
+ 
+ .contacto span{
+   font-size: 70px;
+ }
+
 
 }
 
