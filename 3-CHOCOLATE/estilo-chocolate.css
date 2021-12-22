@@ -177,17 +177,21 @@ width: 100%;
 
 @media screen and (max-device-width: 480px){
 
+  header {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center; 
+}
+
   .tituloprincipal {
     color: #fff;
     font-family: 'Great Vibes', cursive;
     line-height: 0.25;
     font-weight: 10;
-    font-size: 80px;
+    font-size: 130px;
   text-shadow: 2px 2px 5px #000;
   background-color: none;
   display: inline-block;
-  position: relative;
-  left:40%;
 }
 
 .tituloprincipal:hover {
@@ -198,19 +202,18 @@ width: 100%;
   background-color: #725A57 ;
   opacity: 90%;
   position: relative;
-  height: 120px;
+  height: 200px;
   width: 100%;
   }
   
+
   .logotitulo { 
     position: absolute;
-    height: 80px;
-    left: 65%;
-    top: 10%;
+    height: 130px;
+    top: 20%;
+    left: 72%;
     text-shadow: 2px 3px black;  
-    
-  
-  }
+    } 
 
 
   .divClases div{
