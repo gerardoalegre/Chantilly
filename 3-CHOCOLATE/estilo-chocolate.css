@@ -184,11 +184,11 @@ width: 100%;
 }
 
   .tituloprincipal {
-    color: #fff;
-    font-family: 'Great Vibes', cursive;
-    line-height: 0.25;
-    font-weight: 10;
-    font-size: 130px;
+  color: #fff;
+  font-family: 'Great Vibes', cursive;
+  line-height: 0.25;
+  font-weight: 10;
+  font-size: 130px;
   text-shadow: 2px 2px 5px #000;
   background-color: none;
   display: inline-block;
@@ -196,6 +196,25 @@ width: 100%;
 
 .tituloprincipal:hover {
   color: #EEBDB6;  
+}
+
+.tituloCatalogo {
+  color: #fff;
+  text-shadow: 2px 2px 2px  #000;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  font-size: 180px;
+  font-family: 'Amatic SC';
+  position: relative;
+  background-color: #C27B7C;
+  width: 90%;
+  opacity: 95%;
+  text-align: center;
+  border:0.5px solid #C27B7C;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
 }
 
 .barraPrincipal{
@@ -231,7 +250,22 @@ width: 100%;
     margin-top: 20px;
   }
 
-
+  .divClases span{
+    display: block;
+    color: #fff;
+    height: 160px;
+    font-size: 100px;
+    font-family: 'Amatic SC' ;
+    background-color: #C27B7C;
+    text-align: center;
+    border: 0.5px solid NONE;
+    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 2px  #000;
+    margin-top: 40px;
+    line-height: 170px;
+    opacity: 95%;
+  }
+  
 
 }
 
