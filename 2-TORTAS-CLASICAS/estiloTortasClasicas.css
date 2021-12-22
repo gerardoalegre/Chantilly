@@ -5,12 +5,7 @@
   
   a:link {text-decoration: none; color: #fff;}
   a:visited {text-decoration: none;}
-  
-  /*Colores 
-  Champagne: #EED9B6
-  Rosa pastel:   #EEBDB6;
-  
-  */
+
   
   @media
   only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -156,7 +151,7 @@
     position: relative;
     width:88%;
     padding:10px 10px 10px 10px;
-    border:1px solid #C27B7C;
+    border:1px solid #BFBFBF;
     background-color:#fff;
     box-shadow:20px 20px 40px #000;
   }
@@ -182,20 +177,24 @@
   
   @media screen and (max-device-width: 480px){
   
+   
     .divClases div{
       color: #000;
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
+      align-items: center;
       font-size: 50px;
       font-family: 'Amatic SC';
       position: relative;
       width: 100%;
-      margin-left: 3px;
-      margin-right: 3px;
+      margin-left: auto;
+      margin-right: auto;
       margin-top: 20px;
     }
  
+
+    
   }
   
 
