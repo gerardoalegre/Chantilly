@@ -235,21 +235,21 @@ width: 100%;
     } 
 
 
-  .divClases div{
-    color: #000;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    font-size: 50px;
-    font-family: 'Amatic SC';
-    position: relative;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-  }
-
+    .divClases div{
+      color: #000;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      font-size: 50px;
+      font-family: 'Amatic SC';
+      position: relative;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+    }
+  
   .divClases span{
     display: block;
     color: #fff;
