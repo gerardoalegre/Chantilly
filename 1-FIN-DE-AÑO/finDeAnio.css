@@ -133,15 +133,16 @@ width: 100%;
 
 .divClases div{
   color: #000;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   font-size: 50px;
   font-family: 'Amatic SC';
   position: relative;
-  width: 48%;
-  margin-left: 3px;
-  margin-right: 3px;
+  width: 410px;
+  margin-left: 6px;
+  margin-right: 6px;
   margin-top: 20px;
-
 }
 
 .divClases img {
@@ -151,7 +152,7 @@ width: 100%;
   margin-top: 20px;
   position: relative;
   width:88%;
-  padding:20px 20px 20px 20px;
+  padding:10px 10px 10px 10px;
   border:1px solid #721B1F;
   background-color:#fff;
   box-shadow:20px 20px 40px #000;
