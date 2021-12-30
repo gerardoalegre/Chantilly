@@ -249,11 +249,11 @@ width: 100%;
     margin-right: auto;
     margin-top: 20px;
   }
-
+  
   .divClases span{
     display: block;
     color: #fff;
-    height: 160px;
+    height: 80px;
     font-size: 100px;
     font-family: 'Amatic SC' ;
     background-color: #C27B7C;
@@ -261,10 +261,11 @@ width: 100%;
     border: 0.5px solid NONE;
     box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
     text-shadow: 2px 2px 2px  #000;
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     line-height: 170px;
     opacity: 95%;
-  }
+   }
  
 
 

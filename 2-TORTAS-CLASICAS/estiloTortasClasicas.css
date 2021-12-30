@@ -178,13 +178,16 @@ width: 100%;
 @media screen and (max-device-width: 480px){
 
 
+.mediaSticky{
+  position: sticky;
+}
 
 
 header {
  display: flex;
  flex-wrap: wrap;
  justify-content: center; 
- position: fixed;
+
 }
 
   .tituloprincipal {
@@ -196,6 +199,13 @@ header {
   text-shadow: 2px 2px 5px #000;
   background-color: none;
   display: inline-block;
+}
+
+.barraPrincipal{
+  background-color: #725A57 ;
+ opacity: 90%;
+ height: 90px;
+ width: 100%;
 }
 
 .tituloprincipal:hover {
@@ -269,7 +279,7 @@ header {
     margin-bottom: 50px;
     line-height: 170px;
     opacity: 95%;
-  }
+   }
  
 
 
