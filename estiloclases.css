@@ -41,12 +41,12 @@ height: 90px;
 width: 100%;
 }
 
-.tituloprincipal {
-    color: #fff;
-    font-family: 'Great Vibes', cursive;
-    line-height: 0.25;
-    font-weight: 10;
-    font-size: 60px;
+.tituloPrincipal {
+	color: #fff;
+	font-family: 'Great Vibes', cursive;
+	line-height: 0.25;
+	font-weight: 10;
+	font-size: 60px;
   text-shadow: 2px 2px 5px #000;
   background-color: none;
   display: inline-block;
@@ -187,16 +187,30 @@ width: 100%;
  justify-content: center; 
 }
 
-  .tituloprincipal {
+  .tituloPrincipal {
   color: #fff;
   font-family: 'Great Vibes', cursive;
   line-height: 0.25;
   font-weight: 10;
-  font-size: 130px;
+  font-size: 60px;
   text-shadow: 2px 2px 5px #000;
   background-color: none;
   display: inline-block;
+  margin-right: 200px;
 }
+
+.titulosecundario {
+  padding: 15px;
+  font-family: 'Amatic SC';
+  letter-spacing: 2px;
+  line-height: 15px;
+  font-size: 30px;
+  color: #FAF5EC;
+  text-shadow: 1px 1px 1px #000;
+  width: 100%;
+  text-align: center;
+  margin-right: 100%;
+  }
 
 .tituloprincipal:hover {
   color: #EEBDB6;  
@@ -208,8 +222,8 @@ width: 100%;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
-  font-size: 130px;
+  margin-top: 60px;
+  font-size: 100px;
   font-family: 'Amatic SC';
   position: relative;
   background-color: #C27B7C;
@@ -225,16 +239,16 @@ width: 100%;
   background-color: #725A57 ;
   opacity: 90%;
   position: relative;
-  height: 200px;
+  height: 100px;
   width: 100%;
   }
   
 
   .logotitulo { 
     position: absolute;
-    height: 130px;
-    top: 20%;
-    left: 72%;
+    height: 60px;
+    top: 14%;
+    left: 78%;
     text-shadow: 2px 3px black;  
     } 
 
@@ -258,8 +272,8 @@ width: 100%;
   .divClases span{
     display: block;
     color: #fff;
-    height: 170px;
-    font-size: 100px;
+    height: 100px;
+    font-size: 60px;
     font-family: 'Amatic SC' ;
     background-color: #C27B7C;
     text-align: center;
@@ -267,7 +281,7 @@ width: 100%;
     box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
     text-shadow: 2px 2px 2px  #000;
     margin-top: 80px;
-    line-height: 170px;
+    line-height: 100px;
     opacity: 95%;
   }
  
