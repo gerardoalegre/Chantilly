@@ -54,6 +54,48 @@ width: 100%;
   left: 20px;
 }
 
+#navContainer { 
+  position: sticky;
+  top:0;
+  padding-top: 5px;
+  padding-bottom:5px;
+  margin: 0;
+  background-color: #BE9792;
+  box-shadow: 0px 1px 5px #000;
+}
+
+
+.navbar-brand{
+  padding: 15px;
+  font-family: 'Amatic SC';
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-size: 35px;
+  color: #FAF5EC;
+  text-shadow: 1.5px 1.5px 1.5px #000;
+  text-align: center;
+  position: relative;
+  left: 5%;
+ }
+
+ #navBtn{
+   border: 1.8px solid #FAFAFA;
+   box-shadow: .5px .5px 3px #000;
+   }
+   .navbar-toggler{
+     background-color: #BE9792;
+   }
+
+.navbar-toggler:hover {
+    background-color: #EEBDB6;
+    transition: 0.5s;
+    }
+  
+.offcanvas, .dropdown-menu{
+ background-color: #28222D;
+ color: #fff;
+}
+
 .tituloprincipal:hover {
   color: #EEBDB6;  
 }
@@ -65,9 +107,10 @@ width: 100%;
   left: 87%;
   text-shadow: 2px 3px black;  
   margin-top: 5px;
-
+  filter: drop-shadow(1px 1px 1px #000);
 }
 
+/*
 .titulosecundario {
   padding: 15px;
   font-family: 'Amatic SC';
@@ -80,15 +123,16 @@ width: 100%;
   text-align: center;
   margin-right: 100%;
   }
+*/
+
 
 .navPrincipal{
   font-family: 'Nunito', sans-serif;
   height: auto;
   width: 100%;
   background-color: #BE9792;
-  box-shadow: 1px 1px 10px #000;
-  border-color: 20px solid #000;
   position: relative;
+  box-shadow:1px 1px 0px rgba(0, 0, 0, 0.8);
   }
 
 .menuPrincipal{
@@ -115,6 +159,7 @@ width: 100%;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
   border-radius: 10px;
 }
+
 
 
 .divClases{
@@ -145,8 +190,8 @@ width: 100%;
 
 .divClases img {
   display: inline-block;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 7%;
+  margin-right: 7%;
   margin-top: 20px;
   position: relative;
   width:88%;
@@ -159,12 +204,12 @@ width: 100%;
 .divClases span{
   display: block;
   color: #fff;
+  line-height:69px;
   font-size: 60px;
   font-family: 'Amatic SC' ;
   background-color: #C27B7C;
   width: 100%;
   text-align: center;
-  border: 0.5px solid NONE;
   box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
   text-shadow: 2px 2px 2px  #000;
   margin-top: 40px;
@@ -203,7 +248,7 @@ width: 100%;
   padding: 15px;
   font-family: 'Amatic SC';
   letter-spacing: 2px;
-  line-height: 15px;
+  line-height: 35px;
   font-size: 30px;
   color: #FAF5EC;
   text-shadow: 1px 1px 1px #000;
@@ -239,7 +284,7 @@ width: 100%;
   background-color: #725A57 ;
   opacity: 90%;
   position: relative;
-  height: 100px;
+  height: 90px;
   width: 100%;
   }
   
@@ -249,9 +294,22 @@ width: 100%;
     height: 60px;
     top: 14%;
     left: 78%;
-    text-shadow: 2px 3px black;  
-    } 
+    text-shadow: 2px 3px black;
+      } 
 
+.navbar-brand{
+  padding: 15px;
+  font-family: 'Amatic SC';
+  letter-spacing: 2px;
+  line-height: 10px;
+  font-size: 86%;
+  color: #FAF5EC;
+  text-shadow: 3px 3px 3px #000;
+  text-align: center;
+  position: relative;
+  left: 0%;
+ }
+ 
 
   .divClases div{
     color: #000;
@@ -310,6 +368,9 @@ width: 100%;
   
 /* FOOTER */
 
+
+
+
 .espaciado{
   width: 100%;
   height: 150px;
@@ -319,7 +380,7 @@ width: 100%;
   .footerRedes{
     position: relative;
     bottom: 0px;
-    height: 100%;
+    height: 92vh;
     width: 100%;
     background: #28222D;
     display: inline-block;
@@ -341,11 +402,13 @@ width: 100%;
   
   
   .divRedes{
+
     display:inline-block;
     margin: auto;
     width: 100%;
   }
   
+
     .footerRedes a{
     font-family: 'Nunito', sans-serif;
     color: #fff;
@@ -367,28 +430,28 @@ width: 100%;
     }
   
     footer img {
-     margin: 50px;
+       margin: 5px;
      border-radius: 5px;
      padding: 10px;
     }
   
   .divRedes span{
-  
+    border: 1px solid red;
   position: relative;
   bottom: 70px;
   right: 50px;;
   }
   
   .facebook {
-     height: 30px;
+     height: 60px;
     }
   
   .instagram {
-    width: 30px;
+    width: 60px;
   }
   
   .whatsapp {
-    width: 30px;
+    width: 60px;
   }
   
   footer img:hover{
@@ -396,6 +459,9 @@ width: 100%;
     transition: 0.5s;
   }
   
+  .redes{
+    padding-top: 10vh;
+  }
   .divRedes span:hover{
    color: #EEBDB6;
     transition: 0.5s;

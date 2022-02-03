@@ -23,17 +23,18 @@
  <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap" rel="stylesheet">
   
  
-<!--BOOTSTRAP INACTIVO POR AHORA
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+<!--BOOTSTRAP INACTIVO POR AHORA -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
  
 <!--MY CSS-->
     <link rel="stylesheet" type="text/css" href="estiloclases.css">
   </head>
 <!--FIN DE HEAD-->
 
-
 <!--INICIO DE BODY-->
 <body>
+
+
 
 <!-- TITULO Y LOGO -->
 <header class="barraPrincipal">
@@ -41,13 +42,60 @@
   <a href="index.html"><img class="logotitulo" src=".//LOGO/LOGOBLANCO_SHADOW.png" title="Chantilly"></a>       
 </header>
 
-
-  <!-- TITULO SECUNDARIO -->
-  <nav class="navPrincipal">  
-      <h4 class="titulosecundario">Pastelería y Repostería Artesanal </h4>
-  </nav>
-
+    <!-- NAVBAR BOOTSTRAP-->
+    <nav class="navbar sticky-top navbar-dark"  id="navContainer">
+      <div class="container-fluid" id="divNav">
+        <a class="navbar-brand" href="#">Pastelería y Repostería Artesanal</a>
+        <button  id="navBtn" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Repostería Chantilly</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./1-FIN-DE-AÑO/finDeAnio.html">¡FELICES FIESTAS!</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./2-TORTAS-CLASICAS/tortasClasicas.html">CLÁSICAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./7-PERSONALIZADAS/indexPersonalizadas.html">ESPECIALES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./3-CHOCOLATE/chocolate.html">CHOCOLATES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./4-INFANTILES/infantiles.html">INFANTILES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./5-MESA-DULCE/mesaDulce.html">MESAS DULCES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./6-DESAYUNOS/desayunos.html">BOX Y BANDEJAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./8-POSTRES/indexPostres.html">POSTRES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footerRedes">
+                 CONTACTO
+                </a>
+               </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
   
+    <!-- FIN NAVBAR BOOTSTRAP-->
+ 
   <!-- TITULO CATALOGO -->
 <div Class="tituloCatalogo">
   <span> Catálogo Online</span>
@@ -129,7 +177,45 @@
 
 </body>
 
-<!--FOOTER-->
+<!--FOOTER NUEVO BOOTSTRAP-->
+<footer class="footerRedes" id="footerRedes">
+  <div class="container">
+    <div class="contacto"> <span >Contactate con Nosotros</span></div>
+<br>
+  <div class="redes">
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3">
+        <div class="col container-fluid">
+          <div class="p-4"> 
+            <a href="https://www.facebook.com/Dulcer%C3%ADa-y-Reposter%C3%ADa-Chantilly-109639553875092/" target="_BLANK" title="Dulcería y Repostería Chantilly">
+             <img class="facebook" src="./LOGO/LOGOSREDES/facebook.png" alt=""> 
+             <span>Dulcería y Repostería Chantilly</span>
+           </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-4">
+          <a href="https://www.instagram.com/reposteria.chantilly/" target="_BLANK" title="Repostería Chantilly"> 
+            <img class="instagram"  src="./LOGO/LOGOSREDES/instagram.png" alt=""> 
+            <span>reposteria.chantilly</span>
+          </a>
+    
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-4">
+          <a  href="https://wa.me/543624536336" target="_BLANK"> 
+            <img class="whatsapp" src="./LOGO/LOGOSREDES/whatsapp.png" alt=""> 
+            <span>+54 (362) 4536336</span>
+        </a>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+  <span class="spanCopy"> Desarrollado por <a href="http://www.linkedin.com/in/gerardoalegre" target="_BLANK">©Gerardo Alegre</a> </a></span>
+
+</footer>
+<!--FOOTER VIEJO
 <footer >
   <div class="footerRedes">
 
@@ -156,7 +242,7 @@
   
   </div>
 </footer>
-<!--FIN FOOTER-->
+FIN FOOTER VIEJO-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 
