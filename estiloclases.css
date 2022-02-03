@@ -300,9 +300,9 @@ width: 100%;
 .navbar-brand{
   padding: 15px;
   font-family: 'Amatic SC';
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
   line-height: 10px;
-  font-size: 86%;
+  font-size: 25px;
   color: #FAF5EC;
   text-shadow: 3px 3px 3px #000;
   text-align: center;
