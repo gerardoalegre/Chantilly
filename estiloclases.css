@@ -60,7 +60,7 @@ width: 100%;
   padding-top: 5px;
   padding-bottom:5px;
   margin: 0;
-  background-color: #BE9792;
+  background-color: #542626;
   box-shadow: 0px 1px 5px #000;
 }
 
@@ -83,11 +83,11 @@ width: 100%;
    box-shadow: .5px .5px 3px #000;
    }
    .navbar-toggler{
-     background-color: #BE9792;
+     background-color: #542626;
    }
 
 .navbar-toggler:hover {
-    background-color: #EEBDB6;
+    background-color:  #654949;
     transition: 0.5s;
     }
   
@@ -306,8 +306,8 @@ width: 100%;
   color: #FAF5EC;
   text-shadow: 3px 3px 3px #000;
   text-align: center;
-  position: relative;
   left: 0%;
+  z-index: 121;
  }
  
 
@@ -380,7 +380,7 @@ width: 100%;
   .footerRedes{
     position: relative;
     bottom: 0px;
-    height: 92vh;
+    height: 100vh;
     width: 100%;
     background: #28222D;
     display: inline-block;
@@ -390,13 +390,13 @@ width: 100%;
   
   .contacto{
    font-family: 'Amatic SC';
-   font-size: 50px;
+   font-size: 60px;
+   letter-spacing: 8px;
    position: relative;
-   top: 10px;
+   top: 50px;
    color: #fff;
    width: 100%;
    margin-left: auto;
-  text-decoration: underline dotted;
   }
     
   
@@ -410,7 +410,6 @@ width: 100%;
   
 
     .footerRedes a{
-    font-family: 'Nunito', sans-serif;
     color: #fff;
     line-height: 2;
     font-weight: 5;
@@ -424,9 +423,7 @@ width: 100%;
       color: #fff;
       position: absolute;
       bottom: 0;
-      right: 10px;
       font-size: 17px;
-      text-align: right;
     }
   
     footer img {
@@ -436,12 +433,16 @@ width: 100%;
     }
   
   .divRedes span{
-    border: 1px solid red;
   position: relative;
   bottom: 70px;
   right: 50px;;
   }
   
+  .redes p:hover{
+color:#C27B7C;
+transition: .5s;
+  }
+
   .facebook {
      height: 60px;
     }
@@ -462,9 +463,25 @@ width: 100%;
   .redes{
     padding-top: 10vh;
   }
+
   .divRedes span:hover{
    color: #EEBDB6;
     transition: 0.5s;
+  }
+  
+  #copyright{
+    background-color: #000;
+    color: #fff;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  #copyright p {
+    padding: 20px;
+    display: flex;
+    font-size: 15px;
+    justify-content: center; 
   }
   
   
